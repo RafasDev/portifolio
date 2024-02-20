@@ -114,10 +114,19 @@ body{
     font-size: 1.5rem;
 }
 
+.certificados__link{
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: var(--font-secundaria);
+}
+
 @media (max-width: 1200px){
 
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
     }
 
     .cabecalho__menu{
