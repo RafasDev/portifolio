@@ -22,12 +22,12 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15% ;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 .cabecalho__menu__link{
@@ -115,12 +115,47 @@ body{
 }
 
 .certificados__link{
-    display: inline-block;
+    padding: 10px 20px ;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: var(--font-secundaria);
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.75rem;
+}
+
+.certificados__link:hover{
+    background-color: var(--cor-hover);
+}
+
+.emissao__certificado{
+    color: var(--cor-terciaria);
+}
+
+.projetos__link{
     padding: 10px 20px;
     color: var(--cor-secundaria);
     text-decoration: none;
-    border-radius: 5px;
     font-family: var(--font-secundaria);
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 9.68rem;
+}
+
+.projetos__link:hover{
+    background-color: var(--cor-hover);
 }
 
 @media (max-width: 1200px){
