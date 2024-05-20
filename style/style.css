@@ -17,8 +17,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria) !important; 
+    color: var(--cor-secundaria) !important;
 }
 
 .cabecalho {
@@ -102,7 +102,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 40%;
 }
 
 .rodape {
