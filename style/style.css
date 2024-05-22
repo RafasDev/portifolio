@@ -16,9 +16,18 @@
 }
 
 body {
-    box-sizing: border-box;
+    
     background-color: var(--cor-primaria) !important; 
     color: var(--cor-secundaria) !important;
+}
+
+p{
+    padding: 0 !important;
+}
+
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .cabecalho {
@@ -108,10 +117,11 @@ body {
 .rodape {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 24px;
+    padding: 20px;
     text-align: center;
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
+    width: 100%;
 }
 
 .certificados__link {
