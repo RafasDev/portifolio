@@ -102,7 +102,7 @@ body {
     font-weight: 600 !important;
 }
 
-.apresentacao__links__navegacao:hover{
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover) !important;
 }
 
@@ -124,7 +124,7 @@ body {
     width: 100% !important;
 }
 
-.rodape__texto{
+.rodape__texto {
     margin: 0;
 }
 
