@@ -20,60 +20,59 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="cabecalho">
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-light cabecalho__menu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link cabecalho__menu__link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cabecalho__menu__link" href="about.html">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cabecalho__menu__link" href="certificados.html">Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cabecalho__menu__link" href="projetos.html">Projetos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="apresentacao ">
+        <section class="apresentacao__conteudo ">
+            <h1 class="apresentacao__conteudo__titulo ">Meu perfil<strong class="tituloDestaque ">
+                    Academico e
+                    Profissional</strong></h1>
+            <p class="apresentacao__conteudo__paragrafo lead">Olá! Sou Rafael Silva , desenvolvedor full-stack e estágiario
+                com
+                conhecimentos
+                 em desenvolvimento | Front-end | Java | PHP | PostgreSQL. Estou procurando expandir meu network e minha experiência profissional .Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo h5">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao btn btn-outline" href="https://github.com/RafasDev">
+                    <img src="assets/github.png" alt="Github">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao btn btn-outline"
+                    href="https://www.linkedin.com/in/rafael-silva-lima-63b386268/"> <img src="assets/linkedin.png"
+                        alt="Linkedin"> Linkedin
+                </a>
+                <a class="apresentacao__links__navegacao btn btn-outline"
+                    href="https://www.instagram.com/rafas.el_/"><img src="assets/instagram.png" alt="instagram">
+                    Instagram
+                </a>
 
-            <nav class="navbar navbar-expand-lg navbar-light  cabecalho__menu">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active ">
-                            <a class="nav-link cabecalho__menu__link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link cabecalho__menu__link" href="about.html">Sobre Mim</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link cabecalho__menu__link" href="certificados.html">Certificados</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link cabecalho__menu__link" href="projetos.html">Projetos</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main class="apresentacao ">
-            <section class="apresentacao__conteudo ">
-                <h1 class="apresentacao__conteudo__titulo ">Meu perfil<strong class="tituloDestaque ">
-                        Academico e
-                        Profissional</strong></h1>
-                <p class="apresentacao__conteudo__paragrafo lead">Olá! Sou Rafael Silva , desenvolvedor júnior com
-                    conhecimentos
-                    básicos em HTML e CSS.Estou procurando experiência profissional .Vamos conversar?</p>
-                <div class="apresentacao__links">
-                    <h2 class="apresentacao__links__subtitulo h5">Acesse minhas redes:</h2>
-                    <a class="apresentacao__links__navegacao btn btn-outline" href="https://github.com/RafasDev">
-                        <img src="assets/github.png" alt="Github">
-                        Github
-                    </a>
-                    <a class="apresentacao__links__navegacao btn btn-outline"
-                        href="https://www.linkedin.com/in/rafael-silva-lima-63b386268/"> <img src="assets/linkedin.png"
-                            alt="Linkedin"> Linkedin
-                    </a>
-                    <a class="apresentacao__links__navegacao btn btn-outline"
-                        href="https://www.instagram.com/rafas.el_/"><img src="assets/instagram.png" alt="instagram">
-                        Instagram
-                    </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem col-md-4" src="assets/minha foto.jpeg" alt="Minha foto ">
 
-                </div>
-            </section>
-            <img class="apresentacao__imagem col-md-4" src="assets/minha foto.jpeg" alt="Minha foto ">
-
-        </main>
+    </main>
     </div>
     <footer class="rodape text-center">
         <p class="rodape__texto">Desenvolvido Por Rafael</p>

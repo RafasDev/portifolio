@@ -22,7 +22,7 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15% !important;
+    padding: 2% 0% 0% 16% !important;
 }
 
 .cabecalho__menu {
@@ -47,7 +47,7 @@ body {
     align-items: center !important;
     display: flex !important;
     justify-content: space-between !important;
-    padding: 5% 15% !important;
+    padding: 5% 16% !important;
     gap: 82px !important;
 }
 
@@ -126,30 +126,6 @@ body {
 
 .rodape__texto {
     margin: 0;
-}
-
-.certificados__link {
-    padding: 10px 20px !important;
-    color: var(--cor-secundaria) !important;
-    text-decoration: none !important;
-    font-family: var(--font-secundaria) !important;
-    display: flex !important;
-    justify-content: center !important;
-    border: 2px solid var(--cor-terciaria) !important;
-    width: 378px !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    font-size: 1.5rem !important;
-    font-weight: 600 !important;
-    margin-bottom: 3.75rem !important;
-}
-
-.certificados__link:hover {
-    background-color: var(--cor-hover) !important;
-}
-
-.emissao__certificado {
-    color: var(--cor-terciaria) !important;
 }
 
 .projetos__link {
