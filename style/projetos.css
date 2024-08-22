@@ -25,9 +25,9 @@
 .project-link {
     display: inline-flex;
     align-items: center;
-    color: var(--cor-secundaria);
-    background-color: var(--cor-primaria);
-    border: 1px solid var(--cor-secundaria);
+    color: var(--cor-secundaria)!important;
+    background-color: var(--cor-primaria)!important;
+    border: 1px solid var(--cor-terciaria)!important;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
@@ -41,7 +41,7 @@
 }
 
 .project-link:hover {
-    background-color: var(--cor-hover);
+    background-color: var(--cor-hover)!important;
     color: var(--cor-primaria);
-    border-color: var(--cor-primaria);
+    border-color: var(--cor-primaria)!important;
 }
