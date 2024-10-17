@@ -30,15 +30,60 @@
     padding: 0;
 }
 
-.certificados__item {
+.certificado-btn {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    padding: 0.75rem 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-.certificados__item:hover {
+.certificado-btn:hover {
     background-color: var(--cor-hover);
+}
+
+.certificado-detalhes {
+    background-color: var(--cor-primaria);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+
+.certificado-detalhes p,
+.certificado-detalhes h3 {
+    margin: 15px 0;
+}
+
+.certificado-detalhes a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.certificado-detalhes a:hover {
+    text-decoration: underline;
+}
+
+.tecnologias-usadas {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tech-icon {
+    width: 50px;
+    transition: transform 0.3s;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
 }
